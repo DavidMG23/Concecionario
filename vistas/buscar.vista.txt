@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="img/" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Agencia</title>
+    <meta property="og:url" content="">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="">
+	<meta property="og:image" content="">
+    <meta property="og:description" content="">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/peticion.js"></script>
+</head>
+<body>
+    <section class="destacados">
+        <div class="fondoTitulo">
+            <h4 class="titulo">Nuestros Vehiculos</h4>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 buscar">                    
+                    <h6>Busca tu próximo vehiculo:</h6>
+                    <input class="form-control" type="text" name="busqueda" id="busqueda" placeholder="Ingresa Marca o Modelo">
+                </div>
+            </div>
+        </div>
+        
+        <section class="fotos">
+            <div class="container">
+                <div class="row" id="tabla_resultado">
+                    
+                        <section >
+                        <!-- AQUI SE DESPLEGARA NUESTRA TABLA DE CONSULTA -->
+                        </section>                            
+                    
+                </div>
+            </div> 
+        </section>
+    </section>
+    <!-- <footer>
+        footer
+    </footer> -->
+
+
+
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

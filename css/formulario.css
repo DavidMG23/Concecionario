@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    background-color: #2a3b5f;
+    color: white;
+    font-size: 16px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.tituloGral{
+    margin-top: 10px;
+    text-align: center;
+    border-bottom: 1px solid #FFF;
+}
+.titulo{
+    /* color: #4ad5ff; */
+    text-align: center;
+    margin: 25px 0;
+    font-style: italic;
+}
+textarea{
+    width: 100%;
+    min-height: 100px;
+}
+.fotos label{
+    margin: 15px auto;
+}
+.fotos input{
+    border-bottom: 2px solid #fff;
+}
+.botonOp{
+    margin-bottom: 20px;
+}
+.pie{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.error{
+    color: red;
+}
+
+/* mantenimiento */
+h5{
+    margin: 20px 0;
+}
+.table {
+    width: 60%;
+    background-color: #fff;
+    text-align: center;
+}
+.table th{  
+    padding: 5px;
+	background-color: #4ad5ff;	  
+}  
+.table td{
+    line-height: 80px;
+    padding: 5px;
+}
+.table td img{
+    width: 150px;
+    padding-top: 0;
+}
+.modificar, .borrar{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000;
+}
+.modificar:hover{
+    text-decoration: none;
+    color: orange;
+    
+}
+.borrar:hover{
+    text-decoration: none;
+    color: red;
+}
+/* link volver login/registro */
+#volver{
+    color: #fff;
+}
+#volver:hover{
+    text-decoration: none;
+    color: #c7c6c6;
+}
+.volver{
+   margin: 20px;
+   margin-bottom: 0px;
+}
+.mantenimiento{
+    text-align: center;
+}
+
+/* login y registro */
+
+.caja{
+    margin-top: 50px;
+    width: 30%;
+    text-align: center;
+}
+.icono{
+    padding: 15px;
+	text-align: center;
+	width: 15%;
+	min-height: 48px;
+	font-size: 22px;
+	line-height: 18px;
+	background: #249D41;
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 3px 0 0 3px;
+}
+.form-grup{
+    width: 100%;
+	margin: 10px 0;
+}
+.formLogin input[type="text"], input[type="password"] {
+	padding: 15px;
+	line-height: 18px;
+	border: none;
+	vertical-align: top;
+	width: 80%;
+	border-radius: 0 3px 3px 0;
+}
+@media (max-device-width: 800px){
+    .caja{
+        width: 100%;
+    }
+    .formLogin input[type="text"], input[type="password"]{
+        padding: 13px;
+    }
+}
